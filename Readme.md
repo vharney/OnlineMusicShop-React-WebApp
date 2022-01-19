@@ -27,21 +27,21 @@ Version:
 
 Server side package.json library
 -----
-"cors": "^2.8.5",
-"express": "^4.17.1",
-"express-session": "^1.17.2",
-"mongoose": "^6.0.14",
+"cors": "^2.8.5",  
+"express": "^4.17.1",  
+"express-session": "^1.17.2",  
+"mongoose": "^6.0.14",  
 "nodemon": "^2.0.15"
 
 Client side package.json library
 -----
-"axios": "^0.24.0",
-"nodemon": "^2.0.15",
-"react": "^17.0.2",
-"react-dom": "^17.0.2",
-"react-router": "^6.0.2",
-"react-router-dom": "^6.0.2",
-"react-scripts": "^3.4.4",
+"axios": "^0.24.0",  
+"nodemon": "^2.0.15",  
+"react": "^17.0.2",  
+"react-dom": "^17.0.2",  
+"react-router": "^6.0.2",  
+"react-router-dom": "^6.0.2",  
+"react-scripts": "^3.4.4",  
 "web-vitals": "^1.1.2"
 
 
