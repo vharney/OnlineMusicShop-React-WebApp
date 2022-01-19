@@ -1,20 +1,26 @@
-Tech Stack used:
+Description:
+-----
+This is an online music shop project made by vharney. It is a full-stack web application which includes server and client side handling. The project includes technology such as session, login information and music stored in a MongoDB database. The client side is implemented using native react class based component. The server is implemented as an Express app.
+
+
+Tech Stack:
+----
 MongoDB, Express, React, Node
 
 
 How to run the app:
 ------
 1. Create two terminal, one for back-end, one for front-end
-2. Start server side, run the folowing commands):
-   a.) cd server (go to the server directory)
-   b.) npm install (Install libraries and dependencies)
-   c.) npm start (start the server side)
-   d.) server side successfully initialized in port 5001, check if terminal show the right messsage
-3. Start the client side, run the following commands:
-   a.) cd client (go to the client directory)
-   b.) npm install (Install dependencies)
-   c.) npm start (start client side)
-   d.) Client side is succesfully run in port 3001
+2. Start server side, run the folowing commands):  
+   a.) cd server (go to the server directory). 
+   b.) npm install (Install libraries and dependencies). 
+   c.) npm start (start the server side). 
+   d.) server side successfully initialized in port 5001, check if terminal show the right messsage. 
+3. Start the client side, run the following commands:  
+   a.) cd client (go to the client directory). 
+   b.) npm install (Install dependencies). 
+   c.) npm start (start client side)  
+   d.) Client side is succesfully run in port 3001. 
 4. Run the web-app using the url "localhost:3001" in chrome browser
 
 
