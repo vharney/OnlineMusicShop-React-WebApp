@@ -1,0 +1,130 @@
+.Navbar {
+    background-color: #86C5D8;
+    height: 70px;
+    width: 100%;
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    /* display: inline-block; */
+    box-shadow: -2px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Search {
+    position: relative;
+    /* display:flex; */
+    /* top: 10px;
+    /* left: 50%; */
+    /* transform: translateX(70%);
+    transform: translateY(-50%); */
+    transform: translate(70%, -50%);
+    top: 50%;
+    width: 60%;
+    right: 0px;
+}
+
+.Search-bar {
+    position: relative;
+    width: 80%;
+    height: 25px;
+    margin-right: 0px;
+    border-radius: 20px;
+    padding-left: 10px;
+    z-index: 1;
+    border: none;
+}
+
+.Search-button {
+    position: relative;
+    height: 27px;
+    right: 30px;
+    padding-left: 40px;
+    padding-right: 10px;
+    z-index: 0;
+    border-radius: 20px;
+    border: none;
+    background-color: #e2f7ff;
+    cursor: pointer;
+}
+
+.Search-button {
+    height: 30px;
+    background-color: red;
+}
+
+.Nav-buttons {
+    position: absolute;
+    transform: translateY(-50%);
+    /* height: 100%; */
+    top: 50%;
+}
+
+.Navbar-item {
+    /* height: 100%; */
+    /* margin: 10px; */
+    padding: 28px 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.Navbar-item:hover {
+    /* background-color: grey; */
+    background-color: #578291;
+    color: white;
+    cursor: pointer;
+}
+
+.Navbar-item:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.Cart {
+    border: none;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 10px 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .Navbar {
+        height: 120px;
+    }
+    
+    .Nav-buttons {
+        position: relative;
+        top: 28px !important;
+        /* transform: translate(0,0); */
+        /* top: 50%; */
+        /* width: 60%; */
+        left: 0;
+        right: 0px;
+    }
+
+    .Navbar-item {
+        /* height: 100%; */
+        /* margin: 10px; */
+        margin: 0;
+        padding: 14px 20px !important; 
+        text-decoration: none;
+        color: white;
+    }
+
+    .Search {
+        position: relative;
+        /* display:flex; */
+        /* top: 10px;
+        /* left: 50%; */
+        /* transform: translateX(70%);
+        transform: translateY(-50%); */
+        transform: translate(10%, 10%) !important;
+        top: 50%;
+        width: 100% !important;
+        right: 0px;
+    }
+
+    .Search-bar {
+        position: relative;
+        width: 60% !important;
+    }
+}

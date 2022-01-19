@@ -1,0 +1,80 @@
+.Register {
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.Register-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    /* height: 50%; */
+    background-color: white;
+    /* margin: 10px 20px 0px 10px; */
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 10px 30px 10px;
+}
+
+.Register-info-title {
+  text-align: center;
+}
+
+.Register-user-pass-input {
+  padding-left: 15px;
+  width: 60%;
+  height: 35px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: lightblue;
+}
+
+.Register-button {
+    color: white;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background-color: rgb(231, 90, 90);
+    border: none;
+    border-radius: 5px;
+    box-shadow: -2px 8px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Bach {
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  /* right: 25px;
+  bottom: -30px; */
+  width: 15%;
+}
+
+@media screen and (max-width: 900px) {
+  .Register-info-title {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .Register-info {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+    /* height: 50%; */
+    background-color: white;
+    /* margin: 10px 20px 0px 10px; */
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 10px 30px 10px;
+}
+}

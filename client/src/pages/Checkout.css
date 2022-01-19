@@ -1,0 +1,96 @@
+body {
+    background-color: #CAE9F5;;
+}
+
+.Not-login {
+    background-color: #86C5D8;
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 22px;
+    
+}
+
+#Your-order {
+    background-color: #86C5D8;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* margin-right: 700px; */
+    /* width: 95%; */
+    position: relative;
+    box-sizing: border-box;
+    /* position: absolute; */
+    /* width: 90%; */
+}
+
+.Warning {
+    position: absolute;
+    left: 340px;
+    font-weight: bold;
+}
+
+.Shipping-address {
+    background-color: rgb(189, 189, 189);
+    background-color: #F0F8FF;
+    padding: 30px;
+    padding-top: 20px;
+}
+
+.Shipping-address div {
+    position: relative;
+    margin-top: 5px;
+}
+
+.Shipping-address div input{
+    position: absolute;
+    left: 170px;
+    height: 15px;
+    border-color: lightblue;
+    border-radius: 7px;
+    padding-left: 10px;
+}
+
+input:focus {
+    border: none;
+}
+
+.Submit {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Your-order-items {
+    position: absolute;
+    color: #F0F8FF;
+    width: 100%;
+}
+
+#Your-order div span {
+    display: block;
+    width: 100%;
+}
+
+#Your-order div {
+    color: #F0F8FF;
+    width: 90%;
+}
+
+@media screen and (max-width: 900px) {
+    .Not-login {
+        padding: 30px 0px 30px 20px;
+        font-size: 15px;
+    }
+
+    .Shipping-address {
+        font-size: 17px;
+    }
+
+    .Warning {
+        position: static;
+        display: block;
+        font-weight: bold;
+        margin-left: 170px;
+    }
+}
