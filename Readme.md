@@ -3,6 +3,7 @@ MongoDB, Express, React, Node
 
 
 How to run the app:
+------
 1. Create two terminal, one for back-end, one for front-end
 2. Start server side, run the folowing commands):
    a.) cd server (go to the server directory)
@@ -18,12 +19,14 @@ How to run the app:
 
 
 Version:
+-----
 1. Node.js 	14.18.0
 2. Express.js 	4.16.1
 3. React.js 	17.0.2
 4. MongoDB	Atlas 
 
 Server side package.json library
+-----
 "cors": "^2.8.5",
 "express": "^4.17.1",
 "express-session": "^1.17.2",
@@ -31,6 +34,7 @@ Server side package.json library
 "nodemon": "^2.0.15"
 
 Client side package.json library
+-----
 "axios": "^0.24.0",
 "nodemon": "^2.0.15",
 "react": "^17.0.2",
